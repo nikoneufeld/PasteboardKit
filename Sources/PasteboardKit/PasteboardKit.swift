@@ -6,7 +6,7 @@ import UIKit
 
 /// A Pasteboard maneger only or strings
 public struct PasteBoard {
-    
+    public init() {}
     // For AppKit implementation
     #if os(macOS)
     
